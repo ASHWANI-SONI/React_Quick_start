@@ -8,5 +8,8 @@
 <li>for Comments {/*Comments*/}</li>
 <li>style={{}} is not a special syntax, but a regular {} object inside the style={ } JSX curly braces. </li>
 <li>Go to ConditionalRendering.js to know different approaches regarding conditions</li>
+<li>Do not call the event handler function: you only need to pass it down. React will call your event handler when the user clicks the button.</li>
+<li>You’ll get two things from useState: the current state (count), and the function that lets you update it (setCount). You can give them any names, but the convention is to write [something, setSomething].</li>
+<li>Hooks are more restrictive than other functions. You can only call Hooks at the top of your components (or other Hooks). I</li>
 <li></li>
 </ul>
