@@ -11,5 +11,5 @@
 <li>Do not call the event handler function: you only need to pass it down. React will call your event handler when the user clicks the button.</li>
 <li>You’ll get two things from useState: the current state (count), and the function that lets you update it (setCount). You can give them any names, but the convention is to write [something, setSomething].</li>
 <li>Hooks are more restrictive than other functions. You can only call Hooks at the top of your components (or other Hooks). I</li>
-<li></li>
+<li> In React, it’s conventional to use onSomething names for props which represent events and handleSomething for the function definitions which handle those events.</li>
 </ul>
