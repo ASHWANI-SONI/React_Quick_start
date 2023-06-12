@@ -7,11 +7,6 @@
 <li>if we have a lot of html to be converted to jsx we can to that using https://transform.tools/html-to-jsx</li>
 <li>for Comments {/*Comments*/}</li>
 <li>style={{}} is not a special syntax, but a regular {} object inside the style={ } JSX curly braces. </li>
-[//]: <> (This is also a comment.)<li>{/* 
-    Approaches for conditions
-    <div>
-      {isLoggedIn && <AdminPanel />}
-    </div>
-    --> can be used when no else condition is required.
-*/}</li>
+<li>Go to ConditionalRendering.js to know different approaches regarding conditions</li>
+<li></li>
 </ul>

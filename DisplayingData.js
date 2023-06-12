@@ -18,8 +18,13 @@ export default function Profile(){
     );
 }
 
-return (
-    <h1>
-        {user.name} {/*  escaping character */}
-    </h1>
-);
+{
+    /*
+    
+        return (
+            <h1>
+                {user.name} //{ escaping character }
+            </h1>
+        );
+     */
+}
