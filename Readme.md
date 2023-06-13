@@ -12,4 +12,7 @@
 <li>You’ll get two things from useState: the current state (count), and the function that lets you update it (setCount). You can give them any names, but the convention is to write [something, setSomething].</li>
 <li>Hooks are more restrictive than other functions. You can only call Hooks at the top of your components (or other Hooks). I</li>
 <li> In React, it’s conventional to use onSomething names for props which represent events and handleSomething for the function definitions which handle those events.</li>
+<li> (You can read the ...history spread syntax as “enumerate all the items in history”.)</li>
+<li>It’s strongly recommended that you assign proper keys whenever you build dynamic lists. If you don’t have an appropriate key, you may want to consider restructuring your data so that you do.</li>
+<li>If no key is specified, React will report an error and use the array index as a key by default</li>
 </ul>
